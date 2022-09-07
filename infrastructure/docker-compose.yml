@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  eth-node:
+    container_name: eth-node
+    build: .
+    volumes:
+      - eth-node-data:/usr/src/ethereum/data
+
+volumes:
+  eth-node-data:
