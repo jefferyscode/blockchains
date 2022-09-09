@@ -1,0 +1,15 @@
+{
+  "name": "ethereum-prototype-blockchain",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "hardhat": "2.10.2",
+    "hardhat-deploy": "0.11.12"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.7.3"
+  }
+}
